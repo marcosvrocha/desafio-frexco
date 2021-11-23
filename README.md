@@ -25,4 +25,4 @@ Para o comando de inicialização do Nginx, utilizei o nginx -g daemon off pois 
 
 # Como rodar a aplicação:
 
-Para rodar aplicação basta clonar este repositório e com o comando docker compose up no terminal, ela estará online. Apóes isto abra o navegador em localhost:80
+Para rodar aplicação basta clonar este repositório e com o comando docker compose up no terminal ela estará online. Apóes isto abra o navegador em localhost:80
