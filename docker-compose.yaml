@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  frexco-frontend:
+    container_name: frexco-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '80:80'
