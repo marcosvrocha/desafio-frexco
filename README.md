@@ -22,3 +22,7 @@ Para realizar o deploy da aplicação, segui os seguintes passos:
 ### Observação:
 
 Para o comando de inicialização do Nginx, utilizei o nginx -g daemon off pois após uma pequena pesquisa descobri que uma melhor prática é utilizar um serviço por container, devido a isso o Nginx é executado como processo príncipal.
+
+# Como rodar a aplicação:
+
+Para rodar aplicação basta clonar este repositório e com o comando docker compose up no terminal, ela estará online. Apóes isto abra o navegador em localhost:80
